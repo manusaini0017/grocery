@@ -1,0 +1,123 @@
+.bg-gray{background-color:#f0f3f2}
+
+.wrap-1 .col-7{position:relative;}
+.wrap-1 .col-7 span{position: absolute; top: 50%; right: 4%; transform: translateY(-50%);}
+:is(.topnav  button ,.topnav p,.dropdown-menu a){color: #5c6c75;}
+:is(.wrap-1 button, button span,.list-unstyled a){color: #5c6c75bf;}
+.btn-outline-gray:hover{background-color:  #c1c7c6;}
+.topnav button:hover{color: green;}
+
+.btn-green{background-color: #0aad0a !important;}
+.btn-green:hover{background-color: #088a08 !important;}
+.btn-outline-gray{border: 1px solid #c1c7c6 !important;}
+.custom_green:hover{color: green !important;}
+.dropdown:hover .dropdown-menu{display: block !important;}
+.margin-negative{margin-top: -13px;}
+.green{color: rgb(7, 169, 7); }
+.green-bg{background-color:rgb(7, 169, 7) ;}
+.text-gray{color: #5c6c75;}
+.wrap-4 a{border-radius: 10px;}
+.small-size{font-size: 10px;}
+.small-size small{font-size: 13px;}
+.card{position: relative; box-shadow: 0 0px 5px #aaa}
+.custom-badge-1{position: absolute; top: 3%; left: 5%; font-size: 13px; width: 36px ; }
+.custom-badge-3{position: absolute; top: 3%; left: 5%; font-size: 13px; }
+.custom-badge-4{position: absolute; top: 3%; left: 5%; font-size: 13px; width: 36px ;}
+.custom-badge-2{position: absolute; top: 10%; left: 5%; font-size: 13px; width: 36px ;}
+.border{width: 36px; height: 36px; border: 1px solid gray; border-radius: 10px; display: grid; place-items: center;}
+.card:hover .show{display: inline-flex !important;}
+.card:hover{ box-shadow: 0 0px 10px #aaa;}
+ .wrap-6 .show{left: 30%;}
+ .show{left: 20%;}
+.card-image:hover{outline: none;}
+footer ul li a:hover{color: #088a08 !important;}
+.box{width: 30px; height: 30px; border-radius: 10px; border: 1px solid #5c6c75bf; display: grid; place-items: center;}
+.box:hover{border-color: #0aad0a;}
+.box:hover a span{color: #0aad0a !important;}
+.wrap-3 p{white-space: nowrap;}
+
+.owl-carousel{position: relative;}
+
+.owl-nav{position: absolute; top: -50px; right: 0; }
+.owl-prev{width: 35px; height: 35px; border: 1px solid #ecf0ef !important; border-radius: 50% !important;margin-top: -4px; display: inline-block;background-color:#ecf0ef !important ;}
+:is(.owl-next,.owl-prev):hover{background-color: #0aad0a !important; }
+:is(.owl-next,.owl-prev):hover :is(.owl-next span,.owl-prev span){color: #fff;}
+.owl-next{width: 35px; height: 35px; border: 1px solid #ecf0ef !important; border-radius: 50% !important;margin-top: -4px; display: inline-block;background-color:#ecf0ef !important ;}
+.owl-dots{display: none;}
+.modal-body .bg-green{background-color: #0aad0a !important;}
+.owl-next span{margin-bottom: 4px; display: block; }
+.owl-prev span{margin-bottom: 4px; display: block; }
+
+.full-width{
+    position: absolute;
+   max-width:  100vw; 
+    left: 0; 
+    right:0; 
+    top: 142%;
+    margin-top: 0;
+
+    background-color: #fff;
+    z-index: 1; 
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.bg-none:hover
+ {
+    background-color: transparent !important; 
+
+}
+
+
+.icon{margin-top: -4px; color: #5c6c75 ;}
+.search{position: relative;}
+.search span{position: absolute; top: 50%; transform: translateY(-50%); right: 10px;}
+.margin-right{margin-right: 156px;}
+.wrap-5 h2{white-space: nowrap;}
+.wrap-5 .card{margin-bottom: 2rem;}
+.owl-carousel .owl-item{margin: 10px 0;}
+.caret::after{margin-bottom: -3px;}
+
+
+
+
+@media screen and (max-width:1200px){
+    .show{left: 17%;}
+    .wrap-6 .show{left: 39%;}
+    .wrap-4 a{margin-top: -10px;}
+    /* .wrap-6 .img{height: 732px !important;} */
+}
+
+@media screen and (max-width:960px){
+    .wrap-2 p{margin-bottom: -39px;}
+    .wrap-2 p+div{margin-bottom: -27px;}
+    .show{left: 20%;}
+    .wrap-6 .show{left: 30%;}
+    /* .wrap-6 .img{height: 553px !important;} */
+    .position-static {transform: translate3d(0px,0px,0px) !important;}
+
+    
+}
+
+@media screen and (max-width:768px){
+    .wrap-2 p+div{margin-bottom: -33px;}
+    .wrap-2 h2{font-size: 26px;}
+    .carousel-item{bottom: 14px;}
+    /* .wrap-6 .img{height:470px !important;} */
+    .show{left: 25%;}
+
+   
+}
+@media screen and (max-width:460px){
+    .wrap-2 p{font-size: 10px !important;}
+    .wrap-2 p{margin-bottom: 0px;}
+    .wrap-2 p+div a{font-size: 13px; height: 25px; padding: 0 5px;}
+    .wrap-2 h2{font-size: 14px;}
+    .wrap-2 small{margin-bottom: -15px; display: block; font-size: 10px; width: 160px;}
+    .wrap-4 a{display: inline-block; margin-top: -7px;}
+    .justify-between{justify-content: space-between;}
+    .show{left: 28%;}
+
+}
+
+
+ 
