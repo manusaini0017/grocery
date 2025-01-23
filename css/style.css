@@ -6,6 +6,8 @@
 :is(.wrap-1 button, button span,.list-unstyled a){color: #5c6c75bf;}
 .btn-outline-gray:hover{background-color:  #c1c7c6;}
 .topnav button:hover{color: green;}
+ .btn:focus{box-shadow: 0 0 !important;}
+ .form-control:focus{box-shadow: 0 0 0 .25rem rgba(10, 173, 10, .25) !important; border-color: rgba(10, 173, 10, .25) !important;}
 
 .btn-green{background-color: #0aad0a !important;}
 .btn-green:hover{background-color: #088a08 !important;}
@@ -76,6 +78,13 @@ footer ul li a:hover{color: #088a08 !important;}
 .wrap-5 .card{margin-bottom: 2rem;}
 .owl-carousel .owl-item{margin: 10px 0;}
 .caret::after{margin-bottom: -3px;}
+.accordion-button:focus{box-shadow: 0 0 !important;}
+.remove-caret::after {background-image: none !important;}
+.accordion{margin-top: 10px;}
+.accordion .dropdown-item:active{background-color: #e9ecef; color: black;}
+.accordion-item{border: none !important;}
+.accordion .text-dark{font-size: 18px;}
+.navbar-toggler:focus {box-shadow: 0 0 !important;}
 
 
 
