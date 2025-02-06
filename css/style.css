@@ -144,6 +144,7 @@ footer ul li a:hover{color: #088a08 !important;}
      /* .product .button{width: 23% !important;} */
      .flex-columnbutton{flex-flow: column; gap: 5px;}
      .offcanvas-body.products{overflow-x: hidden;}
+     .wrap-6 .pic{height: 460px !important;}
 
 }
 
